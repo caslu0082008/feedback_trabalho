@@ -1,12 +1,12 @@
-* { 
-    margin: 0%;
-    padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Overpass", sans-serif;
-    -webkit-font-snoothing: antialiased;
-} 
-
-:root {
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  :root {
     --dark-blue: #262E38;
     --light-grey: #969FAD;
     --medium-grey: #7c8798;
@@ -14,100 +14,95 @@
     --white: #fff;
     --very-dark-blue: #131518;
     --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181e27 100%);
-} 
-
-body {
+  }
+  
+  body {
     background-color: var(--very-dark-blue);
     height: 100svh;
-
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.card {
-    background-color: var(--black-gradient);
+  }
+  
+  .card {
+    background: var(--black-gradient);
     max-width: 412px;
     padding: 32px;
     border-radius: 30px;
-}
-
-.estrela {
-
-   background-color: var(--dark-blue);
-     width: 48px;
-     height: 48px;
-    
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     
-     border-radius: 50%;
-     margin-bottom: 30px;
-}
-
-.card h1 {
+  }
+  
+  .estrela {
+    background-color: var(--dark-blue);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+  }
+  
+  .card h1 {
     color: var(--white);
     font-size: 28px;
     margin-bottom: 15px;
-}
-
-   .card p {
-   color: var(--light-grey);
-   font-size: 15px;
-   line-height: 24px;
-
-}
-
-    .notas {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 32px;
-    }
-
-    .notas {
-     width: 51px;
-     height: 51px;
-     font-size: 16px; 
-     font-weight: 700;
-     line-height: 24px;       
-     border-radius: 50%;
-     border: none;
-     color: var(--medium-grey);
-     background-color: var(--very-dark-blue);
-
-     transition: all ease-in-out 0.3s;
-    }
-
-    .notas button:hover {
-        color: var(--white);
-        background-color: var(--orange);
-        cursor: pointer;
-    }
-
-    .notas button:facus {
-        color: var(--white);
-        background-color: var(--light-grey);
-    }
-
-   .notas > button {
+  }
+  
+  .card p {
+    color: var(--light-grey);
+    font-size: 15px;
+    line-height: 24px;
+  }
+  
+  .notas {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+  
+  .notas button {
+    width: 51px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 50%;
+    border: none;
+    color: var(--white);
+    background-color: var(--dark-blue);
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+  }
+  
+  .notas button:hover {
+    background-color: var(--orange);
+  }
+  
+  .notas button:focus {
+    background-color: var(--light-grey);
+    outline: none;
+  }
+  
+  .card > a {
+    display: block;
     width: 100%;
     padding: 13px;
     background-color: var(--orange);
     border: none;
     border-radius: 2px;
-
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:var(--white);
-
-   }
-
-   .card > button:hover {
-
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .card > a:hover {
     color: #fc7614;
     background-color: var(--white);
-    curson: pointer;
-   }
+    cursor: pointer;
+  }
+  
+  
