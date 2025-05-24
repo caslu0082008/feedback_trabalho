@@ -52,11 +52,32 @@ body {
     margin-bottom: 15px;
 }
 
-.card p {
+   .card p {
    color: var(--light-grey);
    font-size: 15px;
    line-height: 24px;
 
 }
+
+    .notas {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .notas {
+     width: 51px;
+     height: 51px;
+     font-size: 16px; 
+     font-weight: 700;
+     line-height: 24px;       
+     border-radius: 50%;
+     border: none;
+     color: var(--medium-grey);
+     background-color: var(--very-dark-blue);
+    }
+
+    .notas button:hover {
+        
+    }
 
 
