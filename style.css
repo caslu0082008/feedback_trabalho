@@ -52,15 +52,17 @@
     color: var(--light-grey);
     font-size: 15px;
     line-height: 24px;
+
   }
   
-  .notas {
+  .botoes {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
+    padding: 15px;
   }
   
-  .notas button {
+  .botoes button {
     width: 51px;
     height: 51px;
     font-size: 16px;
@@ -68,17 +70,17 @@
     line-height: 24px;
     border-radius: 50%;
     border: none;
-    color: var(--white);
+    color: var(--medium-grey);
     background-color: var(--dark-blue);
     transition: all ease-in-out 0.3s;
     cursor: pointer;
   }
   
-  .notas button:hover {
+  .botoes button:hover {
     background-color: var(--orange);
   }
   
-  .notas button:focus {
+  .botoes button:focus {
     background-color: var(--light-grey);
     outline: none;
   }
@@ -89,7 +91,8 @@
     padding: 13px;
     background-color: var(--orange);
     border: none;
-    border-radius: 2px;
+    border-radius: 22px;
+    
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
